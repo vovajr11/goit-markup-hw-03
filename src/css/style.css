@@ -185,7 +185,6 @@ button {
 .portfolio-project-item {
   margin-bottom: 30px;
   background-color: var(--bg-portfolio-project-item);
-  outline: 1px solid #eeeeee;
 }
 
 .portfolio-project-item:nth-child(3n + 1) {
@@ -245,6 +244,8 @@ button {
 
 .portfolio-project-info {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-project-name {
