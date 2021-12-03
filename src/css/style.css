@@ -61,7 +61,7 @@ button {
 }
 
 .header-content {
-  height: 80px;
+  padding: 24px 25px;
   justify-content: space-between;
   align-items: center;
 }
@@ -87,6 +87,10 @@ button {
   align-items: center;
 }
 
+.menu-list {
+  margin-left: 93px;
+}
+
 .menu-item,
 .contact-item {
   margin-right: 50px;
@@ -108,8 +112,7 @@ button {
 }
 
 .contact-list {
-  flex-basis: 600px;
-  justify-content: center;
+  margin-left: auto;
 }
 
 .menu-link:hover,
@@ -134,12 +137,10 @@ button {
 }
 
 .section-preview {
-  width: 100%;
-  height: 600px;
+  padding: 200px 0;
   background: var(--section-preview-bg-color);
   text-align: center;
   flex-direction: column;
-  justify-content: center;
 }
 
 .section-preview-title {
@@ -160,6 +161,10 @@ button {
   margin-top: 30px;
   padding: 10px 32px;
   letter-spacing: 0.06em;
+}
+
+.sectio-peculiarities {
+  padding-bottom: 0;
 }
 
 .info-list {
@@ -208,7 +213,7 @@ button {
 }
 
 .section-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
   letter-spacing: 0.03em;
@@ -232,6 +237,7 @@ button {
 
 .worker-name {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .employee-position {
@@ -239,7 +245,7 @@ button {
 }
 
 .portfolio-project-list {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .portfolio-project-info {
@@ -253,6 +259,7 @@ button {
   font-size: 18px;
   line-height: 2;
   color: var(--primary-text-color);
+  margin-bottom: 4px;
 }
 
 .portfolio-project-type {
@@ -266,7 +273,7 @@ button {
 }
 
 .filter-button-item {
-  margin-left: 30px;
+  margin-left: 8px;
 }
 
 .filter-button {
@@ -274,6 +281,7 @@ button {
   border-radius: 4px;
   padding: 6px 22px;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 .filter-button:hover,
@@ -293,9 +301,9 @@ button {
   line-height: 1.56;
   font-style: normal;
   color: var(--primary-white-color);
+  margin-top: 20px;
 }
 
-.footer-address,
 .contact-item-footer {
-  padding-top: 9px;
+  margin-top: 9px;
 }
