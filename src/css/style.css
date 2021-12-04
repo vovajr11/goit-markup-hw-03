@@ -57,11 +57,11 @@ button {
 }
 
 .header {
+  padding: 24px 0;
   border: 1px solid #ececec;
 }
 
 .header-content {
-  padding: 24px 25px;
   justify-content: space-between;
   align-items: center;
 }
